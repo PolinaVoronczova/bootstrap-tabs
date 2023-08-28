@@ -1,0 +1,72 @@
+.tab-content .tab-pane img
+{
+    width: 970px;
+    height: 421px;
+    border-radius: 12px;
+}
+.benefit-tabs
+{
+    margin-left: 20px;
+}
+.benefit-tabs .col 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.benefit-tabs .nav-link
+{
+    font-family: 'Comfortaa', cursive;
+    line-height: 1em;
+    padding: 30px;
+    margin: 10px;
+    width: 202px;
+    height: 202px;
+    border-radius: 12px;
+    background: #f6f6f6;
+    color:#002956;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    background-color:  rgb(255,207,0) !important;
+}
+.benefit-tabs .nav-link::before
+{
+    content: ' ';
+    display: block;
+    width: 32px;
+    height: 38px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/2hor_icon_square.svg');
+}
+.benefit-tabs .nav-link#kitchen-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_fridge.svg');
+}
+.benefit-tabs .nav-link#nature-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_panorama.svg');
+}
+.benefit-tabs .nav-link#terrace-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_terrace.svg');
+}
+.benefit-tabs .nav-link#kitchen-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_fridge.svg');
+}
+.benefit-tabs .nav-link#big-company-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_people.svg');
+}
+.benefit-tabs .nav-link#mangal-zone-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_bonfire.svg');
+}
+.benefit-tabs .nav-link#family-holidays-tab::before
+{
+    background-image: url('https://abzakovo.hwdedic.ru/wp-content/uploads/2023/08/7hor_icon_meditation.svg');
+}
